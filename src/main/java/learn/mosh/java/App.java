@@ -59,14 +59,6 @@ public class App
         System.out.println("**************************************");
     }
 
-    //Schedule payments.
-    //Formula B = L[(1+c)^n - (1+c)^p] / [(c+1)^n - 1]
-    /* L(Long time payment) = principal.
-     *  c = monthly interest.
-     *  p = number of payments made.
-     *  n = number of payments.
-     *  B = remind balance.
-     * */
     public static double calculateBalance(int principal, float annualInterest, byte years, short numberOfPaymentsMade){
 
         float monthlyInterest = annualInterest / PERCENT / MONTHS_IN_YEAR;
