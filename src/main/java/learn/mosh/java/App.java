@@ -11,7 +11,7 @@ public class App
 
     public static void main( String[] args ) {
 
-        System.out.println("============= Mortgage Calculator ============= ");
+        System.out.println("========== Mortgage Calculator ========== ");
 
         int principal = (int)readNumber("Principal: ",1000,5_000_000);
         float annualInterest = (float)readNumber("Annual interest rate: ",1,30);
@@ -41,14 +41,14 @@ public class App
     private static void printMortgage(int principal, float annualInterest, byte years){
 
         double mortgage = calculateMortgage(principal, annualInterest, years);
-        System.out.println("============= ------------------- ============= \n");
+        System.out.println("============---------- ============ \n");
         String mortgageFormatted = NumberFormat.getCurrencyInstance().format(mortgage);
         System.out.println("Monthly payments : " + mortgageFormatted);
     }
 
     private static void printPaymentSchedule(int principal, float annualInterest, byte years){
 
-        System.out.println("Payment Schedule \n");
+        System.out.println("\nPayment Schedule");
         System.out.println("**************************************");
 
         for (short month = 1; month <= years * MONTHS_IN_YEAR; month++ ){

@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa8df354-9c15-4a79-8c28-c8dfe5a76458" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/mosh/java/Browser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/mosh/java/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/mosh/java/TextBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/mosh/java/classQuiz.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/learn/mosh/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/mosh/java/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learn/mosh/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/mosh/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/learn/mosh/java/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/learn/mosh/java/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/learn/mosh/java/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/learn/mosh/java/Main.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +61,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="learn.mosh.java.App" />
       <module name="mortagage_calc" />
@@ -90,8 +97,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.App" />
         <item itemvalue="Java Scratch.Scratch" />
       </list>
     </recent_temporary>
@@ -108,6 +115,8 @@
       <updated>1574946322436</updated>
       <workItem from="1574946325658" duration="11634000" />
       <workItem from="1575835292221" duration="8374000" />
+      <workItem from="1576013602492" duration="10000" />
+      <workItem from="1576013666296" duration="7939000" />
     </task>
     <servers />
   </component>
