@@ -1,30 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ArtifactsWorkspaceSettings">
-    <artifacts-to-build>
-      <artifact name="mortagage_calc:jar" />
-    </artifacts-to-build>
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa8df354-9c15-4a79-8c28-c8dfe5a76458" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/mortagage_calc_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learn/mosh/java/calculations/Mortgage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learn/mosh/java/calculations/PaymentSchedule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learn/mosh/java/utils/Common.java" afterDir="false" />
+    <list default="true" id="146d98d6-d8b0-4bc3-b08f-cac2b9625e49" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/mosh/java/Console.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/mosh/java/MortgageCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/mosh/java/MortgageReport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/learn/mosh/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/mosh/java/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learn/mosh/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learn/mosh/java/calculations/Mortgage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learn/mosh/java/calculations/PaymentSchedule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learn/mosh/java/utils/Common.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/learn/mosh/java/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/learn/mosh/java/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/learn/mosh/java/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mortagage_calc-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-learn.mosh.java.AppTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/learn.mosh.java.AppTest.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,16 +43,23 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/learn/mosh/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="learn.mosh.java.MortgageCalculator" />
+      <recent name="learn.mosh.java.MortgageReport" />
+      <recent name="learn.mosh.java.Console" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -93,8 +87,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SayHi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learn.mosh.java.SayHi" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learn.mosh.java.Main" />
       <module name="mortagage_calc" />
       <extension name="coverage">
         <pattern>
@@ -116,7 +110,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.App" />
-        <item itemvalue="Application.SayHi" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Java Scratch.Scratch" />
       </list>
     </recent_temporary>
@@ -132,8 +126,9 @@
       <option name="presentableId" value="Default" />
       <updated>1574946322436</updated>
       <workItem from="1574946325658" duration="11634000" />
-      <workItem from="1575835292221" duration="11215000" />
-      <workItem from="1576438172133" duration="7970000" />
+      <workItem from="1575835292221" duration="8374000" />
+      <workItem from="1576013602492" duration="10000" />
+      <workItem from="1576013666296" duration="7939000" />
     </task>
     <servers />
   </component>
@@ -158,8 +153,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/learn/mosh/java/App.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="2" />
+          <line>14</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
