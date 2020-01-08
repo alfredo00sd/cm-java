@@ -2,7 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa8df354-9c15-4a79-8c28-c8dfe5a76458" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/mosh/interfaces/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/mosh/interfaces/TaxCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/mosh/interfaces/TaxCalculator2019.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/mosh/interfaces/TaxCalculator2020.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/mosh/interfaces/TaxReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/mosh/interfaces/ui/Draggable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/mosh/interfaces/ui/Dragger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/mosh/interfaces/ui/Resizable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/mosh/interfaces/ui/UIWidget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/mosh/java/CheckBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/mosh/java/Exec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/mosh/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/mosh/java/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/mosh/java/TextBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/mosh/java/UIControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/mosh/mytube/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/mosh/mytube/NotificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/mosh/mytube/SqlVideoDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/mosh/mytube/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/mosh/mytube/Video.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/mosh/mytube/VideoDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/mosh/mytube/VideoEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/mosh/mytube/VideoProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/mosh/mytube/XNotificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/mosh/mytube/XVideoEncoder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,6 +39,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -29,7 +54,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1UFJHdKDjcUgeweXpZ8vlczF8bA" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -42,6 +69,13 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="learn.mosh.mytube" />
+      <recent name="learn.mosh.interfaces.ui" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="learn.mosh" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Alfredo Acosta\IdeaProjects\mosh\cm-java" />
     </key>
@@ -58,13 +92,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="learn.mosh.java.App" />
       <module name="mortagage_calc" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="learn.mosh.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exec" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learn.mosh.java.Exec" />
+      <module name="mortagage_calc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learn.mosh.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learn.mosh.interfaces.Main" />
+      <module name="mortagage_calc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learn.mosh.interfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,18 +145,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scratch" type="Java Scratch" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Scratch" />
-      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learn.mosh.mytube.Main" />
+      <module name="mortagage_calc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learn.mosh.mytube.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Java Scratch.Scratch" />
+        <item itemvalue="Application.Exec" />
+        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -115,7 +183,7 @@
       <workItem from="1576013602492" duration="10000" />
       <workItem from="1576013666296" duration="9582000" />
       <workItem from="1576596117062" duration="3424000" />
-      <workItem from="1578420084303" duration="119000" />
+      <workItem from="1578420084303" duration="15447000" />
     </task>
     <task id="LOCAL-00001" summary="Adding some classes to playground with some topics.">
       <created>1576023163970</created>
